@@ -5,6 +5,4 @@ RUN echo "Hello From Unnati" > /var/www/html/index.html
 EXPOSE 8888
 CMD ["usr/sbin/httpd","-D","FOREGROUND"]
 
-docker build -t mycentos .
-docker images
-docker run -d -p 18080:8888 mycentos
+
